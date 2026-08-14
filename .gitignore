@@ -1,0 +1,15 @@
+# 원본 영상 (용량이 크고 GitHub 100MB 파일 크기 제한을 초과함)
+day_videos/
+night_videos/
+
+# 중간 산출물 / 백업 (스크립트로 언제든 재생성 가능)
+cvat_frames_day/_all_threshold_candidates/
+cvat_frames_day/_old_1min_sampling/
+cvat_frames_day/segment_002.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# Ultralytics 실행 시 생성되는 로그/런 폴더
+runs/
